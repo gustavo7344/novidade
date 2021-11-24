@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&family=Poppins:wght@200&family=Rubik&family=Shippori+Antique&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.capa1 img{
+    width: 200px;
+}
+
+.capa1{
+    text-align: center;
+    margin: 10px;
+}
+
+.capa2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.capa2{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.capa2 > div{
+    width: 200px;
+    background: #6730ec;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #6830ec56;
+}
+
+.sobre1{
+    text-align: center;
+}
+
+.flex{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fer1 h1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 15px;
+
+    padding: 10px;
+    margin-top: 90px;
+}
+
+#fer1{
+    background-image: url(../arquivos/imagens/casamento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#fer1 a{
+    text-decoration: none;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.119);
+    
+}
+
+#fer2{
+    background-image: url(../arquivos/imagens/feminismo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fer2 h1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 15px;
+
+    padding: 10px;
+    margin-top: 90px;
+}
+
+#fer3{
+    background-image: url(../arquivos/imagens/postimg-5f230bb0a20862862.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fer3 h1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 15px;
+
+    padding: 10px;
+    margin-top: 90px;
+}
+
+#fer4{
+    background-image: url(../arquivos/imagens/pai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fer4 h1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 15px;
+
+    padding: 10px;
+    margin-top: 90px;
+}
